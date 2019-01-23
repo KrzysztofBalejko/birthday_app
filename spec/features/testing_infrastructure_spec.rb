@@ -18,6 +18,14 @@ feature 'Testing infrastructure' do
       sign_in_and_play
       expect(page).to have_content(@player_1_health)
     end
-
   end
+
+  feature 'Attacking' do
+    scenario 'attack Player 2' do
+      sign_in_and_play
+      click_button 'Attack'
+      expect(page).to have_content (@player1 + " attacked " + @player2)
+    end
+  end
+
 end
