@@ -18,6 +18,19 @@ feature 'Testing infrastructure' do
     end
   end
 
+  feature 'Testing player HP displayed' do
+    scenario 'Players should have equal HP' do
+      visit('/')
+      player1 = 'player1'
+      player2 = 'player2'
+      fill_in 'player_one', with: player1
+      fill_in 'player_two', with: player2
+      click_button 'Submit'
+      expect(page).to have_content(@player_1_health)
+    end
+
+  end
+
 
 
 end
