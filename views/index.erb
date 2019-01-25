@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <link rel="stylesheet" href="https://bootswatch.com/4/slate/bootstrap.min.css">
+  <title>My Birthday App</title>
+  </head>
+  <body>
+    <div class="col-md-6 mx-auto">
+      <form action="/names" method="post">
+      <br>
+      <div>
+        <h1 style="color: Tomato;">Hello there!</h1>
+      </div>
+      <br>
+      <div>
+        <h2>What's your name?</h2>
+      </div>
+      <br>
+      <div class="form-group">
+        <input type="text" name="your_name" class="form-control" placeholder="Please enter your name">
+      </div>
+      <br>
+      <div>
+        <h2>When's your birthday?</h2>
+      </div>
+      <br>
+      <div class="form-group">
+        <label for="Day">Day</label>
+        <input type="text" name="your_birthday_day" class="form-control" placeholder="Please enter your birthday day">
+      </div>
+      <div class="form-group">
+        <label for="Month">Month</label>
+        <select name="your_birthday_month" class="form-control">
+          <option value="1">January</option>
+          <option value="2">February</option>
+          <option value="3">March</option>
+          <option value="4">April</option>
+          <option value="5">May</option>
+          <option value="6">June</option>
+          <option value="7">July</option>
+          <option value="8">August</option>
+          <option value="9">September</option>
+          <option value="10">October</option>
+          <option value="11">November</option>
+          <option value="12">December</option>
+        </select>
+      </div>
+      <br>
+      <div>
+        <input type="submit" value="Go!" class="btn btn-primary btn-lg btn-block">
+      </div>
+      </form>
+    </div>
+  </body>
+</html>
