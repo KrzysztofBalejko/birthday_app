@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <link rel="stylesheet" href="https://bootswatch.com/4/slate/bootstrap.min.css">
+  <title>Birthday</title>
+  </head>
+  <body>
+    <div class="col-md-6 mx-auto">
+      <br>
+      <% if @date == 0 %>
+        <h1 style="color: coral;">Happy Birthday <%= @your_name %> !<h1>
+        <br>
+        <img style="width: 63%;" src="https://files.fm/thumb_show.php?i=mnw699tq">
+      <% else %>
+        <h3 style="color: Tomato;">Your birthday will be in <%= @date %> days <%= @your_name %> !</h3>
+      <% end %>
+    </div>
+  </body>
+</html>
