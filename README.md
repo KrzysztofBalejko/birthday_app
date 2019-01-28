@@ -2,7 +2,7 @@
 
 ----
 
-Little application which displays birthday wishes. If today is not a birthday day it will calculate a number of days left.
+Little application which displays birthday wishes. If today is not your birthday it will calculate a number of days left.
 
 I have used the following tools and technologies:
 
@@ -23,7 +23,7 @@ Please see below screenshots:
 
 ![UI](images/b1.png)
 
-2. If today was a birthday day, wishes are displayed
+2. If today was your birthday, wishes are displayed
 
 ![Birthday wishes](images/b2.png)
 
